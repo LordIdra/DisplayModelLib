@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.metamechanists</groupId>
-    <artifactId>MetaLib</artifactId>
+    <artifactId>DisplayModelLib</artifactId>
     <version>1</version>
     <packaging>jar</packaging>
 
