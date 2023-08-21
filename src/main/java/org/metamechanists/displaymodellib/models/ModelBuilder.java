@@ -39,7 +39,7 @@ public class ModelBuilder {
      */
     public DisplayGroup buildAtBlockCenter(@NotNull final Location blockLocation) {
         final DisplayGroup group = new DisplayGroup(blockLocation.clone(), 0, 0);
-        components.forEach((name, component) -> group.addDisplay(name, component.build(blockLocation.clone().toCenterLocation())));
+        components.forEach((name, component) -> group.addDisplay(name, component.build(blockLocation.clone().add(0.5, 0.5, 0.5))));
         return group;
     }
 }
