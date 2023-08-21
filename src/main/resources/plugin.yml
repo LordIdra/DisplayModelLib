@@ -1,0 +1,4 @@
+name: DisplayModelLib
+version: '${project.version}'
+main: org.metamechanists.displaymodellib.DisplayModelLib
+api-version: 1.19
