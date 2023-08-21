@@ -16,7 +16,7 @@ A library to help with the complexities of managing display entities & interacti
 <dependency>
   <groupId>org.metamechanists</groupId>
   <artifactId>DisplayModelLib</artifactId>
-  <version>1</version>
+  <version>2</version>
 </dependency>
 ```
 
