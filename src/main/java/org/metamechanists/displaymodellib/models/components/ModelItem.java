@@ -18,6 +18,7 @@ import org.metamechanists.displaymodellib.transformations.TransformationMatrixBu
 
 
 @SuppressWarnings("unused")
+@Getter
 public class ModelItem implements ModelComponent {
     private final ItemDisplayBuilder main = new ItemDisplayBuilder();
 
