@@ -1,5 +1,6 @@
 package org.metamechanists.displaymodellib.models.components;
 
+import lombok.Getter;
 import org.bukkit.Color;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -19,6 +20,7 @@ import org.metamechanists.displaymodellib.transformations.TransformationMatrixBu
  * Represents a diamond (no not that kind of diamond... this is a rotated cube)
  */
 @SuppressWarnings("unused")
+@Getter
 public class ModelDiamond implements ModelComponent {
     public static final Vector3d ROTATION = new Vector3d(-0.955, 0.785, 0);
 

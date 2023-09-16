@@ -1,5 +1,6 @@
 package org.metamechanists.displaymodellib.models.components;
 
+import lombok.Getter;
 import org.bukkit.Color;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
@@ -14,6 +15,7 @@ import org.metamechanists.displaymodellib.transformations.TransformationMatrixBu
 
 
 @SuppressWarnings("unused")
+@Getter
 public class ModelText implements ModelComponent {
     private final TextDisplayBuilder main = new TextDisplayBuilder()
             .backgroundColor(Color.fromARGB(0, 0, 0, 0));

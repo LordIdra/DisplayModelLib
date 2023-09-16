@@ -1,5 +1,6 @@
 package org.metamechanists.displaymodellib.models.components;
 
+import lombok.Getter;
 import org.bukkit.Color;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -18,6 +19,7 @@ import org.metamechanists.displaymodellib.transformations.TransformationMatrixBu
 
 
 @SuppressWarnings("unused")
+@Getter
 public class ModelItem implements ModelComponent {
     private final ItemDisplayBuilder main = new ItemDisplayBuilder();
 
