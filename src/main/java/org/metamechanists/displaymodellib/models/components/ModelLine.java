@@ -15,6 +15,7 @@ import org.metamechanists.displaymodellib.transformations.TransformationUtils;
 
 
 @SuppressWarnings("unused")
+@Getter
 public class ModelLine implements ModelComponent {
     private final BlockDisplayBuilder main = new BlockDisplayBuilder();
 
