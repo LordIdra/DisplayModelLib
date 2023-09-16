@@ -14,6 +14,7 @@ import org.metamechanists.displaymodellib.transformations.TransformationMatrixBu
 
 
 @SuppressWarnings("unused")
+@Getter
 public class ModelText implements ModelComponent {
     private final TextDisplayBuilder main = new TextDisplayBuilder()
             .backgroundColor(Color.fromARGB(0, 0, 0, 0));
